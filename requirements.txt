@@ -1,9 +1,15 @@
-fastapi
 pandas
-tensorflow-gpu
-uvicorn
-h5py==2.10.0
+tensorflow @ file:///tensorflow-2.6.0-cp37-cp37m-linux_x86_64.whl
+tensorflow-datasets==4.0.1
+tensorflow-estimator==2.6.0
+tensorflow-gcs-config==2.6.0
+tensorflow-hub==0.12.0
+tensorflow-metadata==1.2.0
+tensorflow-probability==0.13.0
+keras==2.6.0
+h5py==3.1.0
 python-multipart
-tensorflow_hub==0.12.0
-fastapi
-gunicorn
+fastapi==0.63.0
+gunicorn==20.0.4
+asyncpg==0.21.0
+uvicorn==0.13.3
