@@ -1,0 +1,7 @@
+fastapi
+pandas
+tensorflow-gpu
+uvicorn
+h5py==2.10.0
+python-multipart
+tensorflow_hub==0.12.0
